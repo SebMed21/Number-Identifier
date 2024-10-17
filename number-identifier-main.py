@@ -14,14 +14,16 @@ def identifier(num1, num2, num3, num4, num5):
             print (num4)
         else: 
             print (num5)
-            
-
-                
-
-
-
+        
 #input values of the variables
+
+num1 = int(input("Input the first number: "))
+num2 = int(input("Input the second number: "))
+num3 = int(input("Input the third number: "))
+num4 = int(input("Input the fourth number: "))
+num5 = int(input("Input the fifth number: "))
+
 #call the defined function
-identifier(10,9,8,7,6)
+identifier(num1, num2, num3, num4, num5)
 #display the values
 
